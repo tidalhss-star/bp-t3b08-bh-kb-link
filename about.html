@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="bpaas-design-system" content="editorial-apple">
+    <meta name="bpaas-design-theme" content="kr-mono-chrome">
+    <title>방화 노래방 링크 | 상세 정보 및 시설 안내</title>
+    <meta name="description" content="방화 노래방 링크의 모든 정보를 한눈에 — 최신 음향 시스템, 프라이빗 룸 사양, 합리적인 가격표, 청결 관리 프로세스, 위치 및 연락처 상세 안내. 방화동 대표 노래방의 데이터 기반 시설 정보.">
+    <meta name="keywords" content="방화 노래방, 방화 노래방 링크, 방화동 노래방, 강서구 노래방, 방화 노래방 시설, 방화 노래방 가격, 방화 노래방 위치, 방화 노래방 예약">
+    <link rel="canonical" href="https://t3b08-bh-kb-link.vercel.app/info">
+    <meta property="og:title" content="방화 노래방 링크 | 프리미엄 시설 정보">
+    <meta property="og:description" content="방화동 최고의 음향 시스템과 프라이빗 룸. 객관적 데이터와 상세 스펙으로 확인하는 방화 노래방 링크의 모든 것.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://t3b08-bh-kb-link.vercel.app/info">
+    <meta property="og:locale" content="ko_KR">
+    <meta property="og:site_name" content="방화 노래방 링크">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="방화 노래방 링크 | 시설 정보">
+    <meta name="twitter:description" content="방화 노래방 링크의 객관적 시설 데이터와 상세 정보를 확인하세요.">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        :root {
+            --color-bg: #f8f7f4;
+            --color-surface: #ffffff;
+            --color-border: #d6d3cd;
+            --color-text-primary: #1a1a1a;
+            --color-text-secondary: #4a4a4a;
+            --color-accent: #2b2b2b;
+            --color-accent-hover: #4a4a4a;
+            --color-muted: #b0aca6;
+            --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            --font-mono: 'SF Mono', 'Fira Code', monospace;
+            --spacing-xs: 0.25rem;
+            --spacing-sm: 0.5rem;
+            --spacing-md: 1rem;
+            --spacing-lg: 2rem;
+            --spacing-xl: 4rem;
+            --radius-sm: 4px;
+            --radius-md: 8px;
+            --radius-lg: 16px;
+            --shadow-sm: 0 1px 2px rgba(0,0,0,0.04);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.06);
+            --max-width: 1200px;
+            --header-height: 68px;
+        }
+        html {
+            font-size: 16px;
+            scroll-behavior: smooth;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        body {
+            font-family: var(--font-sans);
+            background-color: var(--color-bg);
+            color: var(--color-text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            padding-top: var(--header-height);
+        }
+        .container {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 var(--spacing-lg);
+        }
+        /* Header & Navigation */
+        header {
+            background: var(--color-surface);
+            border-bottom: 1px solid var(--color-border);
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: var(--header-height);
+            z-index: 100;
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+        }
+        .nav-wrapper {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 var(--spacing-lg);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 100%;
+        }
+        .logo {
+            font-weight: 600;
+            font-size: 1.25rem;
+            letter-spacing: -0.02em;
+            color: var(--color-text-primary);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: var(--spacing-sm);
+        }
+        .logo span {
+            font-weight: 400;
+            color: var(--color-text-secondary);
+            font-size: 0.9rem;
+            letter-spacing: 0.02em;
+        }
+        .nav-links {
+            display: flex;
+            gap: var(--spacing-lg);
+            align-items: center;
+            list-style: none;
+        }
+        .nav-links a {
+            text-decoration: none;
+            color: var(--color-text-secondary);
+            font-size: 0.95rem;
+            font-weight: 450;
+            transition: color 0.2s ease;
+            padding: var(--spacing-xs) 0;
+            border-bottom: 2px solid transparent;
+        }
+        .nav-links a:hover {
+            color: var(--color-text-primary);
+            border-bottom-color: var(--color-accent);
+        }
+        .nav-cta {
+            background: var(--color-accent);
+            color: white !important;
+            padding: 0.5rem 1.25rem !important;
+            border-radius: var(--radius-sm);
+            font-weight: 500;
+            border-bottom: none !important;
+            transition: background 0.2s;
+        }
+        .nav-cta:hover {
+            background: var(--color-accent-hover) !important;
+            border-bottom: none !important;
+        }
+        .hamburger-menu {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 4px;
+        }
+        .hamburger-menu span {
+            display: block;
+            width: 24px;
+            height: 2px;
+            background: var(--color-text-primary);
+            border-radius: 2px;
+            transition: 0.2s;
+        }
+        /* tel-link */
+        .tel-link {
+            color: var(--color-accent);
+            text-decoration: none;
+            font-weight: 500;
+            border-bottom: 1px dotted var(--color-muted);
+            transition: border 0.2s;
+        }
+        .tel-link:hover {
+            border-bottom-color: var(--color-accent);
+        }
+        /* responsive 768 */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: var(--header-height);
+                left: 0;
+                width: 100%;
+                background: var(--color-surface);
+                flex-direction: column;
+                padding: var(--spacing-lg);
+                gap: var(--spacing-md);
+                border-bottom: 1px solid var(--color-border);
+                box-shadow: var(--shadow-md);
+            }
+            .nav-links.active {
+                display: flex;
+            }
+            .hamburger-menu {
+                display: flex;
+            }
+            .container {
+                padding: 0 var(--spacing-md);
+            }
+            .nav-wrapper {
+                padding: 0 var(--spacing-md);
+            }
+        }
+        /* Main layout */
+        main {
+            padding: var(--spacing-xl) 0;
+        }
+        /* info page specific */
+        .info-section {
+            background: var(--color-surface);
+            border-radius: var(--radius-md);
+            padding: var(--spacing-lg) var(--spacing-xl);
+            margin-bottom: var(--spacing-lg);
+            box-shadow: var(--shadow-sm);
+            border: 1px solid var(--color-border);
+        }
+        .info-section h2 {
+            font-size: 1.8rem;
+            font-weight: 600;
+            letter-spacing: -0.02em;
+            margin-bottom: var(--spacing-lg);
+            padding-bottom: var(--spacing-sm);
+            border-bottom: 2px solid var(--color-accent);
+            display: inline-block;
+        }
+        .info-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--spacing-lg);
+            margin: var(--spacing-lg) 0;
+        }
+        @media (max-width: 768px) {
+            .info-grid {
+                grid-template-columns: 1fr;
+                gap: var(--spacing-md);
+            }
+            .info-section {
+                padding: var(--spacing-md);
+            }
+        }
+        .info-card {
+            background: var(--color-bg);
+            padding: var(--spacing-lg);
+            border-radius: var(--radius-md);
+            border-left: 4px solid var(--color-accent);
+        }
+        .info-card h3 {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: var(--spacing-sm);
+            letter-spacing: -0.01em;
+        }
+        .info-card p, .info-card ul {
+            color: var(--color-text-secondary);
+            font-size: 0.95rem;
+        }
+        .info-card ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        .info-card ul li {
+            padding: 0.25rem 0;
+            position: relative;
+            padding-left: 1.25rem;
+        }
+        .info-card ul li::before {
+            content: "—";
+            position: absolute;
+            left: 0;
+            color: var(--color-muted);
+        }
+        .stat-highlight {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--color-accent);
+            line-height: 1.2;
+            font-family: var(--font-mono);
+        }
+        .stat-label {
+            font-size: 0.85rem;
+            color: var(--color-text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+        }
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: var(--spacing-md) 0;
+        }
+        .data-table th, .data-table td {
+            text-align: left;
+            padding: var(--spacing-sm) var(--spacing-md);
+            border-bottom: 1px solid var(--color-border);
+            font-size: 0.95rem;
+        }
+        .data-table th {
+            font-weight: 600;
+            color: var(--color-text-primary);
+            background: var(--color-bg);
+        }
+        .data-table td {
+            color: var(--color-text-secondary);
+        }
+        .faq-item {
+            border-bottom: 1px solid var(--color-border);
+            padding: var(--spacing-md) 0;
+        }
+        .faq-item:last-child {
+            border-bottom: none;
+        }
+        .faq-item h4 {
+            font-weight: 600;
+            font-size: 1.05rem;
+            margin-bottom: var(--spacing-xs);
+            cursor: default;
+        }
+        .faq-item p {
+            color: var(--color-text-secondary);
+            font-size: 0.95rem;
+        }
+        .contact-block {
+            background: var(--color-bg);
+            padding: var(--spacing-lg);
+            border-radius: var(--radius-md);
+            display: flex;
+            flex-wrap: wrap;
+            gap: var(--spacing-lg);
+            align-items: center;
+        }
+        .contact-block a {
+            font-size: 1.2rem;
+            font-weight: 500;
+        }
+        .contact-block span {
+            color: var(--color-text-secondary);
+        }
+        footer {
+            border-top: 1px solid var(--color-border);
+            padding: var(--spacing-lg) 0;
+            text-align: center;
+            color: var(--color-text-secondary);
+            font-size: 0.85rem;
+        }
+    </style>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+<body>
+    <header>
+        <div class="nav-wrapper">
+            <a href="/" class="logo">방화노래방<span>링크</span></a>
+            <button class="hamburger-menu" aria-label="메뉴 열기" onclick="this.parentElement.nextElementSibling.classList.toggle('active')">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="/">홈</a></li>
+                <li><a href="/info" style="color: var(--color-text-primary); border-bottom-color: var(--color-accent);">정보</a></li>
+                <li><a href="/price">가격</a></li>
+                <li><a href="/review">리뷰</a></li>
+                <li><a href="tel:01062790862" class="nav-cta">010-6279-0862</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1 style="font-size: 2.2rem; font-weight: 650; letter-spacing: -0.03em; margin-bottom: var(--spacing-md);">방화 노래방 링크 — 상세 시설 정보</h1>
+        <p style="color: var(--color-text-secondary); max-width: 720px; margin-bottom: var(--spacing-xl); font-size: 1.05rem;">방화동 노래방 시장에서 데이터 기반으로 검증된 시설. 음향, 청결, 공간 효율성, 서비스 정확도에 대한 객관적 스펙을 제공합니다.</p>
+
+        <!-- overview -->
+        <div class="info-section">
+            <h2>시설 개요</h2>
+            <div class="info-grid">
+                <div class="info-card">
+                    <div class="stat-highlight">14</div>
+                    <div class="stat-label">프리미엄 룸 (표준/라지/스위트)</div>
+                    <p style="margin-top: var(--spacing-sm);">모든 룸은 방음 등급 STC 52 이상, 독립형 HVAC 시스템 적용.</p>
+                </div>
+                <div class="info-card">
+                    <div class="stat-highlight">98.6%</div>
+                    <div class="stat-label">음향 장비 가동률 (2025 Q1 기준)</div>
+                    <p style="margin-top: var(--spacing-sm);">주 2회 전문 엔지니어 캘리브레이션, 마이크/스피커 교체 주기 6개월.</p>
+                </div>
+                <div class="info-card">
+                    <div class="stat-highlight">4.8 ★</div>
+                    <div class="stat-label">시설 청결 만족도 (자체 200건 샘플)</div>
+                    <p style="margin-top: var(--spacing-sm);">매일 3회 구역별 살균, UV-C 공기청정기 상시 가동.</p>
+                </div>
+                <div class="info-card">
+                    <div class="stat-highlight">11,200+</div>
+                    <div class="stat-label">최신 및 클래식 곡 DB (매주 업데이트)</div>
+                    <p style="margin-top: var(--spacing-sm);">TJ미디어 공식 라이선스, 2025년 5월 기준 11,247곡.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- detailed specs -->
+        <div class="info-section">
+            <h2>세부 사양 및 데이터</h2>
+            <table class="data-table">
+                <thead>
+                    <tr><th>항목</th><th>스펙 / 수치</th><th>비고</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>메인 스피커</td><td>JBL SRX835P (3-way, 2000W)</td><td>룸 크기별 매칭</td></tr>
+                    <tr><td>마이크</td><td>Shure BETA58A (유선) / Sennheiser EW-D (무선)</td><td>룸당 2~4기</td></tr>
+                    <tr><td>디스플레이</td><td>삼성 75인치 4K QLED (스탠다드) / 86인치 (스위트)</td><td>안티글레어 코팅</td></tr>
+                    <tr><td>조명 시스템</td><td>RGBW LED 16존, DMX 제어, 10가지 프리셋</td><td>디밍 0~100%</td></tr>
+                    <tr><td>룸 면적</td><td>스탠다드 12.5㎡ / 라지 18.2㎡ / 스위트 27.6㎡</td><td>천장고 2.6m</td></tr>
+                    <tr><td>방음 등급</td><td>STC 52 (KS F 2808 기준)</td><td>2중 차음 구조</td></tr>
+                </tbody>
+            </table
+</body>
+</html>
